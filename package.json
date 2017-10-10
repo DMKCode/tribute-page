@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/DMKCode/tribute-page/issues"
   },
-  "homepage": "https://github.com/DMKCode/tribute-page#readme"
+  "homepage": "https://github.com/DMKCode/tribute-page#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
 }
