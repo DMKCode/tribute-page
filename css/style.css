@@ -36,7 +36,6 @@ article {
 }
 
 .image-container {
-    display: inline-block;
     position: relative;
     -moz-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
     -webkit-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
@@ -44,14 +43,14 @@ article {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .main-image--header {
-    max-width: 1200px;
     width: 100%;
     position: relative;
     z-index: -1;
-    margin: 0 auto;
 }
 
 .quotes {
@@ -116,5 +115,21 @@ article {
     -ms-transform: skew(8deg) rotate(3deg);
     -o-transform: skew(8deg) rotate(3deg);
     transform: skew(8deg) rotate(3deg);
+}
+
+footer p {
+    text-align: center;
+}
+
+footer hr {
+    width: 50%;
+}
+
+footer p a {
+    color: #107896;
+}
+
+footer p:nth-child(1) {
+    font-size: 1.4em;
 }
 
