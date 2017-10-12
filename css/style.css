@@ -24,14 +24,17 @@ article {
     margin: 0 auto;
 }
 
+.title--header, .subtitle--header {
+    line-height: 1.2;
+    color: #107896;
+    text-align: center;
+}
 .title--header {
     text-transform: uppercase;
     font-family: 'Rye', cursive;
     font-size: 1.6em;
-    font-weight: 700;
-    line-height: 1.2;
-    color: #107896;
-    text-align: center;
+}
+.subtitle--header {
     margin-bottom: 2em;
 }
 
